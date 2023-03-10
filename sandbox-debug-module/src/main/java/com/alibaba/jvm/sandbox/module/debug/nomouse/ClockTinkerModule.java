@@ -21,6 +21,7 @@ public class ClockTinkerModule implements Module {
     @Resource
     private ModuleEventWatcher moduleEventWatcher;
 
+
     @Command("repairCheckState")
     public void repairCheckState() {
 
